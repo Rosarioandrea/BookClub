@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
 
-.nav-link{
+.nav-link {
     font-family: 'Kaisei Tokumin', sans-serif;
-    text-decoration: none; 
+    text-decoration: none;
     color: #000000;
     padding-right: 100px;
     display: inline-block;
     padding: 50px;
-    
+
 
 }
 
@@ -15,26 +15,24 @@
     color: #c2c0c0;
 }
 
-.iniciasesion{
+.iniciasesion {}
 
-}
-
-.btn{    
-    background-color: #cfc9c938; 
-    color: #000000; 
+.btn {
+    background-color: #cfc9c938;
+    color: #000000;
     font-family: 'Kaisei Tokumin', sans-serif;
-    font-size: 15px;  
+    font-size: 15px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-right: 20px;
     margin: 48px;
-    
+
 }
 
 
-.logo{
+.logo {
     margin: 10px;
     max-width: 100px;
     max-height: 100px;
@@ -48,15 +46,15 @@
     display: flex;
     align-items: center;
     width: 600px;
-    margin: 0px auto; 
+    margin: 0px auto;
     border: 1px solid #e9e9e9;
     border-radius: 50px;
     overflow: hidden;
     background-color: #fff;
     text-align: center;
     font-family: 'Kaisei Tokumin', sans-serif;
-    font-size: 15px; 
-    
+    font-size: 15px;
+
 }
 
 .contenedor-busqueda button {
@@ -72,7 +70,7 @@
 }
 
 .logo-lupa img {
-    width: 25px; 
+    width: 25px;
     height: auto;
     cursor: pointer;
 }
@@ -84,56 +82,117 @@ input[type="text"] {
     outline: none;
 }
 
-.columnas{
+.columnas {
     margin-inline: 50px;
-    display:  inline-block;
+    display: inline-block;
     text-align: left;
     font-family: 'Kaisei Tokumin', sans-serif;
     font-size: 13px;
 }
 
 .trabajaconnosotros {
-    display:  inline-block;
+    display: inline-block;
     text-align: left;
     margin-right: 50px;
-    
+
 }
 
 .sobrebookclub {
-    display:  inline-block;
+    display: inline-block;
     text-align: left;
     margin-right: 50px;
-    
+
 }
 
 .contactanos {
-    display:  inline-block;
-    text-align: left; 
+    display: inline-block;
+    text-align: left;
     padding-left: 800px;
 }
 
 
 .copy {
-    display: flexbox; 
+    display: flexbox;
     text-align: center;
-    
+
 }
 
 hr {
     border: 0px;
     height: 1px;
     margin-top: 100px;
-    background-image: linear-gradient(to right, #0000001a, #00000080, #0000001a); font-size: 10px;
+    background-image: linear-gradient(to right, #0000001a, #00000080, #0000001a);
+    font-size: 10px;
 }
 
-.container-fluid{
+.container-fluid {
     font-family: 'Kaisei Tokumin', sans-serif;
     font-size: 15px;
 }
 
-.copy{
+.copy {
     font-family: 'Kaisei Tokumin', sans-serif;
     font-size: 13px;
     color: gray;
     margin-top: 20px;
+}
+
+.tituloinicio {
+    color: #ffffff;
+    background-color: #223D3C;
+    width: auto;
+    height: auto;
+    display: block;
+    font-family: 'Kaisei Tokumin', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 90px;
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.recomendaciones {
+    font-family: 'Kaisei Tokumin', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.top3 {
+    font-family: 'Kaisei Tokumin', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.container-recomendaciones {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 40vh; /* El 50% de la altura de la ventana */
+}
+
+.grid img {
+    height: 112px;
+    width: 85px;
+    flex-wrap: wrap;
+    
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-left: 10px;
+}
+
+.col1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

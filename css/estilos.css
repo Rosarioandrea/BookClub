@@ -163,16 +163,19 @@ hr {
     color: black;
     
     
+    
 }
 
+.container{
+    display: inline-block;
+}
 
 .top3 {
     font-family: 'Kaisei Tokumin', sans-serif;
     font-size: 30px;
     text-align: center;
     flex-wrap: wrap;
-    
-
+    margin-top: 30px;
 }
 
 .gridtop img {
@@ -180,7 +183,9 @@ hr {
     width: 85px;
     grid-gap: 20px;
     display: inline-block;
-    
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
     
     
 
@@ -188,9 +193,9 @@ hr {
 
 .container-recomendaciones {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 40vh; /* El 50% de la altura de la ventana */
+    justify-content: center; 
+    align-items: center; 
+    height: 40vh; 
 }
 
 .grid img {
@@ -216,7 +221,7 @@ hr {
 .contenedorverde {
     background-color: #223D3C;
     width: auto;
-    height: 700px;
+    height: 800px;
     
 }
 

@@ -431,4 +431,9 @@ hr {
 
 .card-title {
   text-align: center;
+}
+
+.imagen:hover {
+  transition: transform 0.3s;
+  transform: scale(1.2);
 }/*# sourceMappingURL=estilos.css.map */

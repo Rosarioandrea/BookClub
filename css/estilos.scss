@@ -166,7 +166,8 @@ hr {
     display: inline-block;
     margin-top: 20px;
     margin: 60px;
-}
+    }
+
 
 .container-recomendaciones {
     display: flex;
@@ -179,7 +180,8 @@ hr {
     height: 112px;
     width: 85px;
     flex-wrap: wrap;
-}
+    } 
+
 
 .grid {
     display: grid;
@@ -312,6 +314,7 @@ hr {
     width: 85px;
     flex-wrap: wrap;
     grid-template-columns: repeat(12, 1fr);
+
 }
 
 .gridrecomendaciones {
@@ -436,4 +439,10 @@ hr {
 
 .card-title {
     text-align: center;
+}
+
+.imagen:hover{
+    transition: transform 0.3s; 
+    transform: scale(1.2); 
+
 }

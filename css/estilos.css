@@ -345,24 +345,8 @@ hr {
   margin: 30px;
 }
 
-.romance {
-  font-family: "Kaisei Tokumin", sans-serif;
-  font-size: 30px;
-  display: flex;
-  justify-content: left;
-  padding-top: 30px;
-  margin-left: 38px;
-}
-
-.fantasia {
-  font-family: "Kaisei Tokumin", sans-serif;
-  font-size: 30px;
-  display: flex;
-  justify-content: left;
-  padding-top: 30px;
-  margin-left: 38px;
-}
-
+.romance,
+.fantasia,
 .terror {
   font-family: "Kaisei Tokumin", sans-serif;
   font-size: 30px;
@@ -436,7 +420,4 @@ hr {
 .imagen:hover {
   transition: transform 0.3s;
   transform: scale(1.2);
-}
-
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */

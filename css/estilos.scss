@@ -166,7 +166,7 @@ hr {
     display: inline-block;
     margin-top: 20px;
     margin: 60px;
-    }
+}
 
 
 .container-recomendaciones {
@@ -180,7 +180,7 @@ hr {
     height: 112px;
     width: 85px;
     flex-wrap: wrap;
-    } 
+}
 
 
 .grid {
@@ -352,24 +352,8 @@ hr {
     margin: 30px;
 }
 
-.romance {
-    font-family: 'Kaisei Tokumin', sans-serif;
-    font-size: 30px;
-    display: flex;
-    justify-content: left;
-    padding-top: 30px;
-    margin-left: 38px;
-}
-
-.fantasia {
-    font-family: 'Kaisei Tokumin', sans-serif;
-    font-size: 30px;
-    display: flex;
-    justify-content: left;
-    padding-top: 30px;
-    margin-left: 38px;
-}
-
+.romance,
+.fantasia,
 .terror {
     font-family: 'Kaisei Tokumin', sans-serif;
     font-size: 30px;
@@ -441,8 +425,8 @@ hr {
     text-align: center;
 }
 
-.imagen:hover{
-    transition: transform 0.3s; 
-    transform: scale(1.2); 
+.imagen:hover {
+    transition: transform 0.3s;
+    transform: scale(1.2);
 
 }

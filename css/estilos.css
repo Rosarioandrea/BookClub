@@ -7,7 +7,6 @@
   display: inline-block;
   padding: 50px;
 }
-
 .nav-link:hover {
   color: #c2c0c0;
 }
@@ -46,7 +45,6 @@
   font-family: "Kaisei Tokumin", sans-serif;
   font-size: 15px;
 }
-
 .contenedor-busqueda button {
   border: none;
   background-color: rgba(231, 230, 230, 0.8901960784);
@@ -57,7 +55,6 @@
   padding: 10px;
   background-color: rgba(231, 230, 230, 0.8901960784);
 }
-
 .logo-lupa img {
   width: 25px;
   height: auto;
@@ -425,12 +422,10 @@ hr {
   color: #000000;
   border-color: #6e6d6d;
 }
-
 .card-link {
   text-decoration: none;
   text-align: center;
   font-size: 15px;
-  font-family: "Kaisei Tokumin", sans-serif;
   color: #474747;
 }
 

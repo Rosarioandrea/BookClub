@@ -416,7 +416,8 @@ hr {
   font-family: "Kaisei Tokumin", sans-serif;
   color: #000000;
   border-color: #000000;
-  margin: 30px;
+  margin-left: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 .cardperfil .imgperfil {
@@ -432,15 +433,29 @@ hr {
   font-family: "Kaisei Tokumin", sans-serif;
   color: #000000;
   border-color: #000000;
-  margin-left: 100px;
+  margin-left: 170px;
 }
 .cardlectura .card-title {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
 }
 .cardlectura .progress-bar {
   color: white;
   background-color: #223D3C;
+}
+
+.img-grupos {
+  height: 400px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-outline-secondary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .imagen:hover {

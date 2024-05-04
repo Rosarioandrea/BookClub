@@ -37,7 +37,7 @@
     border: none;
     display: flex;
     align-items: center;
-    width: 600px;
+    width: 45%;
     margin: 0px auto;
     border: 1px solid #e9e9e9;
     border-radius: 50px;
@@ -143,8 +143,12 @@ hr {
     font-size: 30px;
     text-align: center;
     margin-top: 30px;
-    text-decoration: none;
+    text-decoration: none; 
     color: black;
+
+    .recomendaciones:hover {
+        color: #c2c0c0;
+    }
 }
 
 .container {
@@ -198,7 +202,7 @@ hr {
 .contenedorverde {
     background-color: #223D3C;
     width: auto;
-    height: 700px;
+    height: auto;
 }
 
 .tituloregistrate {
@@ -222,10 +226,12 @@ hr {
     border: none;
     outline: none;
     display: flexbox;
-    margin-left: 600px;
+    margin-left: 40%; 
     margin-block: 10px;
     margin-top: 50px;
     justify-content: center;
+
+
 }
 
 .botoninicio {
@@ -302,7 +308,6 @@ hr {
 }
 
 .gridnovedades {
-    display: grid;
     grid-template-columns: repeat(6, 3fr);
     grid-gap: 20px;
     margin: 30px;
@@ -310,31 +315,34 @@ hr {
     flex-wrap: wrap; 
     justify-content: space-between;
     padding-top: 20px;
+
+    img {
+        height: 112px;
+        width: 85px;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(12, 1fr);
+    
+    }
 }
 
-.gridnovedades img {
-    height: 112px;
-    width: 85px;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(12, 1fr);
 
-}
 
 .gridrecomendaciones {
-    display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 20px;
     margin: 30px;
+    display: flex;
     flex-wrap: wrap;
+
+    img {
+        height: 130px;
+        width: 100px;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(12, 1fr);
+    }
 
 }
 
-.gridrecomendaciones img {
-    height: 130px;
-    width: 100px;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(12, 1fr);
-}
 
 .titulorecomendaciones1 {
     font-family: 'Kaisei Tokumin', sans-serif;
@@ -411,13 +419,14 @@ hr {
 .card {
     font-family: 'Kaisei Tokumin', sans-serif;
     color: #000000;
-    border-color: #6e6d6d;
+    border-color: #b5b5b57d;
     
     &-link {
         text-decoration: none;
         text-align: center;
         font-size: 15px;
-        color: #474747;
+        color: #0000009f;
+        
     }
     .card-title {
         text-align: center;
